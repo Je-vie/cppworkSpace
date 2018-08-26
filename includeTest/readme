@@ -1,0 +1,10 @@
+介绍一个不需要使用include的例子，
+在main编译单元之前进行声明reference编译单元中定义的函数，这样就不需要写一个reference.h头文件，然后在里面声明一下函数，然后在main
+中#include了。
+
+
+编译
+gcc main.c reference.c -o main
+
+执行
+./main
