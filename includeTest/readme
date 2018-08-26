@@ -8,3 +8,8 @@ gcc main.c reference.c -o main
 
 执行
 ./main
+
+
+# 注意： 如果声明函数在main函数后面，则main可能无法正确编译，
+1. gcc 可以但是会出现警告
+2. g++ 出现错误
